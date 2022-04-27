@@ -1,0 +1,21 @@
+.body {
+  background-color: blue;
+}
+
+.video {
+  width: 720px;
+  height: 480px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.video__time {
+  display: flex;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.video__timer {
+  color: white;
+  font-size: 48px;
+}

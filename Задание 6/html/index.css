@@ -1,0 +1,15 @@
+.div1 {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+.div2 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+}
+
+.div__help {
+  display: flex;
+}

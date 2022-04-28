@@ -1,0 +1,17 @@
+.triangle {
+  display: flex;
+  background-image: url(images/triangle.svg);
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 

@@ -14,6 +14,14 @@ const thirdElem = () => {
   list.innerHTML += `<div class='list__el'></div>`
 }
 
+const debounce = (f, time) => {
+  let timeout;
+  return function() {
+    clearTimeout (timeout) ;
+    timeout = setTimeout (f, time);
+  }
+}
+
 // функция, отвечающая за отрисовку элементов
 const openEl = () => {
   if (list.innerHTML === '') {
